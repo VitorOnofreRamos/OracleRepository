@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76284BB7-8A13-BD91-E13A-438D539DF1F2" name="ITEM_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:52:59 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="5D2865C0-34CC-9FC0-10F8-BC89CA876CE6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:53:08 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E2141A5-6035-D0BC-C61D-E2AB45CFC5F2" name="ITEM_PRODUTO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:53:18 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D2865C0-34CC-9FC0-10F8-BC89CA876CE6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

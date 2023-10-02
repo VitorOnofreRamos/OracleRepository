@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08CAEC72-4646-9206-3FA0-DE6CD9F4D456" name="ESTADO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:26:39 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="EBEB48AB-7D70-0D69-D386-282830691B40">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:26:56 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PAIS" id="9284A136-0C9F-3EA7-995E-BF320671F448">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:27:26 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="CAFD4DCA-FEE2-5F2D-4C1E-8A2698A6C79F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:31:09 UTC</createdTime>
+<generatorID>77F9ED6E-1356-9E54-58C7-9BB05C427A55</generatorID>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<referedAttribute>3975A9DC-5BB1-7F53-FCCB-B2B4ED3F6150</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD8C21A2-D3F7-D49A-2C2A-5F40C05E67C8" name="ESTADO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:27:03 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EBEB48AB-7D70-0D69-D386-282830691B40</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

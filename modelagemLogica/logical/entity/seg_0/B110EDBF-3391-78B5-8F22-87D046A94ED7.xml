@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B110EDBF-3391-78B5-8F22-87D046A94ED7" name="CATEGORIA_PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:44:31 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="ECE8FC7E-DF18-7B13-BBF5-54ACE8E56BBA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:44:45 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="945A823E-C379-9A1A-E9B3-71144DE6CD7D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:46:48 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7A2C7D9-8EFE-D585-FDE4-C2AB3C3D9F6B" name="CATEGORIA_PRODUTO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:44:55 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECE8FC7E-DF18-7B13-BBF5-54ACE8E56BBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

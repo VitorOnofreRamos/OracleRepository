@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBE8D5EC-C1C0-76D3-CF16-5088046A661B" name="PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:11:14 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="2004AADF-FDAB-C08B-01DE-A11E75DF2A0C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:11:31 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="4A2A9250-CBB0-BB4A-2B8F-1ED1602017FC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:12:13 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TIPO" id="88F9BF0D-76F3-B62D-D203-0705D4FBAB58">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:06:44 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MARCA" id="5B0185D6-590C-C39B-FE10-9C1F56FE6F4D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:13:16 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CATEGORIA" id="2075937C-203F-4820-AB56-E495E005EE64">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:15:26 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTOQUE" id="F5F1089B-DA61-3CCA-9D52-9572AD89B76E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:14:15 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="9E61E57C-B2D5-F12A-CBED-1525108B7FB2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:13:40 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>225</dataTypeSize>
+<ownDataTypeParameters>225,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECO" id="067AD37F-DE05-85FF-02DD-9405F2C372F7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:14:30 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESPECIFICACOES" id="F19F67C6-86C1-9736-9E4E-379510397498">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:16:06 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>225</dataTypeSize>
+<ownDataTypeParameters>225,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="010AFED9-8325-EAF8-7A34-8A771D757ADC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:46:33 UTC</createdTime>
+<generatorID>D449556B-6415-53E6-BC26-77A85B9E6785</generatorID>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<referedAttribute>1618582C-9E99-EFDC-9686-9C10AC09EDDB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="29239C64-FDFC-A3C6-F92F-966BACFBF19E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:46:44 UTC</createdTime>
+<generatorID>F8017B32-C9A8-1C1F-E51B-B8C6C21F20B2</generatorID>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<referedAttribute>ECE8FC7E-DF18-7B13-BBF5-54ACE8E56BBA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="E02FA831-8B22-6719-4C5F-61A060ED0A32">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:50:37 UTC</createdTime>
+<generatorID>8FD1D1FE-F6BF-9F34-BA05-A165E881CF20</generatorID>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<referedAttribute>43C4BF16-B9DF-6F85-A0A2-25C48674775E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID4" id="A9031E63-DA47-9550-1513-C92B7C719992">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:52:55 UTC</createdTime>
+<generatorID>C77240EB-D257-C997-12D0-E18523864479</generatorID>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<referedAttribute>C72A32C9-E4F4-9633-7874-65F25E7BA244</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID5" id="7D452CF7-F3EB-DFB3-5E9E-AF8C841C8DFD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:14:57 UTC</createdTime>
+<generatorID>E4815FAF-C0EC-F9FC-382D-C5EDD384D65D</generatorID>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<referedAttribute>0E5A7570-58DE-5533-84F8-AE1D0AAB7F24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15B19C80-8E5E-2A16-B3BE-DB3B660B65EE" name="PRODUTOELETRONICO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:11:47 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2004AADF-FDAB-C08B-01DE-A11E75DF2A0C</attributeRef>
+<attributeRef>A9031E63-DA47-9550-1513-C92B7C719992</attributeRef>
+<attributeRef>7D452CF7-F3EB-DFB3-5E9E-AF8C841C8DFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

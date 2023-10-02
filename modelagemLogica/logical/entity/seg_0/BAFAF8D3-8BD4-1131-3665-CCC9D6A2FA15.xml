@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BAFAF8D3-8BD4-1131-3665-CCC9D6A2FA15" name="VENDA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:32:05 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="3DFA0B05-7198-B8B2-9950-1F01C6DC9501">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:32:25 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LOJ A" id="775D70F0-DE3C-1FEC-19D5-E5BE053D9B3B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:42:11 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PRODUTO" id="7F73A6CE-733A-D85F-2AB0-983E91A2610C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:42:54 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA" id="421CB787-ABA8-662A-611D-328CAE13CCD8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:32:37 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORA" id="FCC850AF-F52D-CC8C-4328-8D8C121EEAAC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:32:59 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL" id="D71601D1-DD83-0DC2-66FB-62679C3F7526">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:33:10 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="2C533D16-0C1C-AEC4-AB0B-3F533DC50503">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:56:04 UTC</createdTime>
+<generatorID>DF1AEC00-3D37-4749-60D7-E2ECA7F40137</generatorID>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<referedAttribute>9BCCB43E-3E74-E655-E351-5E3E4FA69225</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="8F6B9F29-76AC-8E7D-72AF-D51403C5B10F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:05:50 UTC</createdTime>
+<generatorID>50B3CDF2-5BB0-CB4E-1164-D7C10F455A37</generatorID>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<referedAttribute>5363B4DA-6382-10FB-9791-DE93747FD597</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="A5D1EAF8-78AD-79EF-D12F-1D2651FE2344">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:06:14 UTC</createdTime>
+<generatorID>EA182B68-DD81-EFF4-A3E0-8DFCD97B0FAD</generatorID>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<referedAttribute>2EF07C91-94AF-962E-739B-A37A5BA6FF7E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3833000A-FF38-13CA-6ECC-EF1DF1229B3A" name="COMPRA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:32:35 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DFA0B05-7198-B8B2-9950-1F01C6DC9501</attributeRef>
+<attributeRef>2C533D16-0C1C-AEC4-AB0B-3F533DC50503</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

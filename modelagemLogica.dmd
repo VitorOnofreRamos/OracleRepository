@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelagemLogica" id="D9B541EA-1DD4-0BC8-B4E3-C1A148FA3EAB" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:02:39 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D9B541EA-1DD4-0BC8-B4E3-C1A148FA3EAB</designId>
+</OSDM_Design>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B7BDE24-F60F-B197-B250-2EB8CBA4E0DD" name="ENDERECO_LOJA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:11:38 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="64CE9477-E061-B17D-F6E7-4CED27675C9F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:16:56 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="28330858-2DFB-57F4-4EB6-1F836BE7C8EE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:06:34 UTC</createdTime>
+<generatorID>F96D1857-F772-2ACA-6F4F-FF0D6D3D52BA</generatorID>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<referedAttribute>9BCCB43E-3E74-E655-E351-5E3E4FA69225</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LOJA" id="99D491FC-4D99-4038-B4C9-18B819CDF162">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:10:04 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="26AE65F1-B9CC-6FA9-788A-E0B88B8DD9B6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 12:36:18 UTC</createdTime>
+<generatorID>13076E94-B68C-5CA0-2A5D-5C7190DF5B69</generatorID>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<referedAttribute>F30F9A35-BBD1-F08C-757D-6FBB957D9334</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE78DBA7-B732-F680-E966-771D4D8F165E" name="ENDERECO_LOJA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:17:03 UTC</createdTime>
+<ownerDesignName>modelagemLogica</ownerDesignName>
+<engineerTo>
+<item key="8715C058-4CC2-B25F-69EB-1BDDF7E06A8F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64CE9477-E061-B17D-F6E7-4CED27675C9F</attributeRef>
+<attributeRef>28330858-2DFB-57F4-4EB6-1F836BE7C8EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
